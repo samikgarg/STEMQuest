@@ -20,6 +20,7 @@ export default function Home() {
 
       <br /><br /><br /><br />
 
+
       <div className={styles.evenSection}>
       <img src="/logo-no-background.png" alt="logo" className={styles.topImage}/>
       </div>
