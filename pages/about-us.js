@@ -3,6 +3,8 @@ import styles from '../styles/about.module.css';
 import Footer from "../components/Copyright";
 import Navbar from "../components/Navbar";
 
+//comment
+
 export default function Home() {
   
     return (
