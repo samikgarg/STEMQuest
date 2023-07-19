@@ -15,6 +15,10 @@ export default async function handler(req, res) {
     return;
   }
 
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Methods", "POST");
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+
   const profile = await sdk.getProfile('communication/send-email@2.1.0');
   const message = `
     Name: ${body.name}  

@@ -5,7 +5,11 @@ export default function handler(req, res) {
     const filePath = path.join(process.cwd(), 'data', 'blogs.json');
     const fileData = fs.readFileSync(filePath);
     const data = JSON.parse(fileData);
-  
+    
+    res.setHeader("Access-Control-Allow-Origin", "*");
+    res.setHeader("Access-Control-Allow-Methods", "GET,POST,DELETE");
+    res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+
     if (req.method === 'GET') {
         res.status(200).json(data);
     } else if (req.method === 'POST') {
