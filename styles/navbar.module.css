@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black; /******************/
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navlink {
+    color: white;
+    margin-left: 1rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    padding: 0.5rem 1rem; /* Add padding to create a box around the text */
+    display: inline-block; /* This is needed to add padding */
+}
+
+.navlink:hover {
+    color: black; /******************/
+    background-color: white;
+    font-weight: bold;
+}
+
+.navlink:hover, .active {
+    color: black; /******************/
+    background-color: white;
+}
+
+.active {
+    color: black; /******************/
+    background-color: white;
+    font-weight: bold;
+    margin-left: 1rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    padding: 0.5rem 1rem; /* Add padding to create a box around the text */
+    display: inline-block; /* This is needed to add padding */
+}

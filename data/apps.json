@@ -1,0 +1,20 @@
+{"apps": 
+[
+    {
+        "id":"shapex",
+        "name":"ShapeX Calculator",
+        "description":["ShapeX Calculator is a quick and easy to use Calculator application that eliminates all your Mathematics Problems relate to 2-Dimensional Geometry. It allows you to calculate parameters of plane figures and shapes including Length, Width, Area, Perimeter, Diagonal, Base, Height, Radius, Diameter, Circumference.", " ", "ShapeX Calculator supports various shapes, including Circle, Triangle (Equilateral Triangle and Isosceles Triangle), Square and Rectangle, with more coming soon!", " ", "Need to show working on your tests and assignments?", "You can view the full working for all calculations with the click of a button!", " ", "Need to round your answer to a specific number of decimal places?\nYou can easily do that with the help of this app!", " ", "You do need to remember and memorise any formulae used, as this app will give you the list of all relevant formulae with the click of a button.", " ", "Information about any shape can be viewed as the app includes links to articles with detailed information about the shapes.", " ", "Thanks to this app, you will no longer have any problems with your geometric calculations! This app is suitable for everyone dealing with geometry including students, teachers, and professionals in all fields."],
+        "link":"https://play.google.com/store/apps/details?id=com.samazebra.mathematicalgeometrycalculator",
+        "images":["/apps/shapex/img1.png","/apps/shapex/img2.png","/apps/shapex/img3.png", "/apps/shapex/img4.png", "/apps/shapex/img5.png"],
+        "icon":"/apps/shapex/icon.png"
+    },
+    {
+        "id":"beginning",
+        "name":"Science and Technology: The Beginning...",
+        "description":["Ever wanted to know how the universe began, how the Earth began, how you began? Scientific and technical innovations have been going on since the beginning of the human race and are what turned us into Earth’s most advanced life forms. If you want to know how we got here, you have come to the right place!\nScience and Technology: The Beginning… is a free app that provides you with a detailed account of the history of the universe and how scientific and technical discoveries and inventions shaped the way we live our lives today.", " ", "Thanks to this app, you can feed your curiosity on this topic and will have the history of the universe in your pockets!"],
+        "link":"https://play.google.com/store/apps/details?id=com.samazebra.fromstarttoend",
+        "images":["/apps/beginning/img1.png","/apps/beginning/img2.png","/apps/beginning/img3.png"],
+        "icon":"/apps/beginning/icon.png"
+    }
+]
+}

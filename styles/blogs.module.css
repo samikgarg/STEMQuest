@@ -1,0 +1,32 @@
+.container {
+  min-height: 100vh;
+  background-color: lightgray; /*********light blue*********/
+  margin: 0;
+  padding: 0;
+}
+
+.oddSection, .evenSection
+{
+  width: 100%; 
+  text-align: center;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+.oddSection 
+{
+  background-color: lightgray;
+  color: black;
+}
+
+.evenSection 
+{
+  background-color: black;
+  color: white;
+}
+
+.oddSection:hover, .evenSection:hover
+{
+  font-size: 15px;
+}

@@ -1,0 +1,34 @@
+  .container {
+    min-height: 100vh;
+    padding: 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray; /******************/
+  }
+
+  .content {
+    margin: 50px;
+    overflow-y: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.75;
+    font-size: larger;
+    text-align: justify;
+  }
+
+  .heading {
+    text-align: center;
+  }
+
+  .description {
+    display: flex;
+    align-items: center;
+  }
+
+  .image {
+    float: left;
+    width: 200px;
+    margin: 10px 40px;
+    border-radius: 20px;
+  }

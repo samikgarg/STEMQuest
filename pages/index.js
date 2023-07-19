@@ -1,63 +1,64 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import Footer from "../components/Copyright";
+import Navbar from "../components/Navbar";
+
 
 export default function Home() {
+
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="shortcut icon" href="/logo-icon.png" />
       </Head>
 
-      <main>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+      <nav>
+          <Navbar page = {0}/>
+      </nav>
 
-        <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
+      <br /><br /><br /><br />
+
+      <div className={styles.evenSection}>
+      <img src="/logo-no-background.png" alt="logo" className={styles.topImage}/>
+      </div>
+
+      <div className={styles.oddSection}>
+        <h1>Our Mission</h1>
+        <p className={styles.content}>
+          Under the banner of 'Our Mission' at STEMQuest Discovery, our ambition is to bridge the gap between access and opportunity in the field of STEM. We are driven by a passionate belief that every individual, regardless of their background or socioeconomic status, should have the chance to explore, learn and excel in STEM disciplines. Our goal is to ignite curiosity, inspire learning, and foster self-confidence in these subjects. We strive to create an inclusive, engaging environment that makes STEM accessible, comprehensible, and enjoyable, thereby nurturing the innovators and problem-solvers of tomorrow. This, we believe, is our path to a brighter, more equitable future, powered by knowledge, curiosity, and the shared passion for STEM. 
         </p>
+      </div>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+      <div className={styles.evenSection}>
+        <h1>Our Apps</h1>
+        <div className={styles.content}>
+          <img src="/apps/beginning/img3.png" alt="icon" className={styles.app_image_reverse}/>
+          <img src="/apps/beginning/icon.png" alt="icon" className={styles.app_icon_reverse}/>
+          <img src="/apps/shapex/img2.png" alt="icon" className={styles.app_image}/>
+          <img src="/apps/shapex/icon.png" alt="icon" className={styles.app_icon}/>
+          <p>
+          Explore the exciting world of STEM with our diverse range of Android apps, designed exclusively to inspire curiosity and foster learning in Science, Technology, Engineering, and Mathematics. These apps, free for all, are our initiative to democratize STEM education, ensuring every aspiring mind, privileged or underprivileged, has access to quality learning resources. Dive in and discover the joy of STEM learning today! 
+          </p>
+          <br />
+          <button className={styles.buttonStyleReverse} onClick={() => window.location.href = '/apps'} type="button">Check Out Our Apps</button>
         </div>
-      </main>
+      </div>
+
+      <div className={styles.oddSection}>
+        <h1>Our Blogs</h1>
+        <div className={styles.content}>
+          <p>
+          Our latest blogs on Artificial Intelligence are a treasure trove of knowledge waiting to be explored. Dive into the mesmerising world of AI as we guide you through complex concepts, fascinating insights, and cutting-edge advancements. These free-to-read blogs are specially written to fuel your curiosity and enhance your understanding of this rapidly-evolving field. Whether you're a seasoned tech enthusiast or an eager beginner, our blogs are tailored to make AI accessible and engaging. Don't wait to discover the future – visit our AI blog series now and take the first step on your journey into the extraordinary realm of Artificial Intelligence!
+          </p>
+          <br />
+          <button className={styles.buttonStyle} onClick={() => window.location.href = '/blogs'} type="button">Check Out Our Blogs</button>
+        </div>
+      </div>
 
       <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
-        </a>
+        <Footer />
       </footer>
 
       <style jsx>{`
@@ -112,4 +113,5 @@ export default function Home() {
       `}</style>
     </div>
   )
+  
 }

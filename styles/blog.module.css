@@ -1,0 +1,24 @@
+.container {
+    min-height: 100vh;
+    padding: 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray; /*********light blue*********/
+    margin: 0;
+    padding: 50px;
+    box-sizing: border-box;
+  }
+
+  .description {
+    width: 100%;
+    line-height: 1.75;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }

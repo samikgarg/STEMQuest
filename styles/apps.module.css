@@ -1,0 +1,118 @@
+.container {
+    min-height: 100vh;
+    padding: 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray; /*********light blue*********/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .app
+  {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .appReverse
+  {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black; /******************/
+    color: white; 
+  }
+
+  .app_icon
+  {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 15px;
+    border-radius: 10px;
+  }
+
+  .buttonStyle {
+    background-color: black; /******************/
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.5s, color 0.5s, border 0.5s;
+    border: 2px solid black; /******************/
+  }
+
+  .buttonStyleReverse {
+    background-color: white; /******************/
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.5s, color 0.5s, border 0.5s;
+    border: 2px solid white; /******************/
+  }
+  
+  .buttonStyle:hover {
+    background-color: lightgray; /**********Light Blue********/
+    color: black; /******************/
+    border: 2px solid black; /******************/
+  }
+
+  .buttonStyleReverse:hover {
+    background-color: black; /******************/
+    color: white; /******************/
+    border: 2px solid white; /******************/
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .rowReverse {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .carousel {
+    width: 300px;
+    margin: 50px;
+  }
+  
+  .carouselImage {
+    width: 300px;
+  }
+  
+  .description {
+    width: 100%;
+    line-height: 1.75;
+    text-align: justify;
+  }
+
+.evenSlider .next-arrow,
+.evenSlider .prev-arrow {
+    color: white;
+}
+
+.oddSlider .next-arrow,
+.oddSlider .prev-arrow {
+    color: black;
+}
