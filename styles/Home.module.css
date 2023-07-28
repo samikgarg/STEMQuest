@@ -160,6 +160,11 @@
   color: white;
 }
 
+.evenSectionEmpty
+{
+  background-color: black;
+}
+
 .buttonStyle {
   background-color: black; /******************/
   color: white;

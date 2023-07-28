@@ -2,9 +2,12 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Footer from "../components/Copyright";
 import Navbar from "../components/Navbar";
+import dynamic from 'next/dynamic';
 
 
 export default function Home() {
+
+  const NewsletterForm = dynamic(() => import('../components/NewsletterForm'), { ssr: false });
 
   return (
     <div className={styles.container}>
@@ -56,6 +59,10 @@ export default function Home() {
           <br />
           <button className={styles.buttonStyle} onClick={() => window.location.href = '/blogs'} type="button">Check Out Our Blogs</button>
         </div>
+      </div>
+
+      <div className={styles.evenSection}>
+        <NewsletterForm />
       </div>
 
       <footer>
