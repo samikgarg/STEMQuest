@@ -5,10 +5,12 @@ export default function NewsletterForm() {
         <div id="mc_embed_shell">
             <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
         <style type="text/css">
-                #mc_embed_signup{background:#000; false;clear:left; font:14px Verdana,Geneva,sans-serif; width: px; display: flex;flex-direction: column;justify-content: center; align-items: center; }
+                #mc_embed_signup{background:#000; false;clear:left; font:14px Verdana,Geneva,sans-serif; width: px; display: flex;flex-direction: column;justify-content: center; align-items: center;}
                 #mc-embedded-subscribe{background:#fff !important; color:#000 !important; border: 2px solid white !important; border-radius: 12px !important; font-size: 16px !important; display: flex !important;
                     justify-content: center !important;
                     align-items: center !important;
+                    padding: 2px 15px !important; /* adjust as needed */
+                    line-height: 1.5 !important;
                     }
                 #mc-embedded-subscribe:hover{background:#000 !important; color:#fff !important; border: 2px solid white !important;}
                 h1 {
