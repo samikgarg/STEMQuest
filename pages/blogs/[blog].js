@@ -2,18 +2,8 @@ import Footer from "../../components/Copyright";
 import Navbar from "../../components/Navbar";
 import Head from 'next/head';
 import styles from '../../styles/blog.module.css';
-import { DiscussionEmbed } from 'disqus-react';
-
 
 export default function Blogs({ data }) {
-  
-  const disqusConfig = {
-    shortname: 'stemquest-discovery',  // replace this with your Disqus shortname
-    config: { 
-      identifier: data.id,  // Unique identifier for each blog post
-      title: data.title,  // Blog post title
-    },
-  }
 
   return (
             <div className={styles.container}>
@@ -36,7 +26,7 @@ export default function Blogs({ data }) {
                     </div>
                 </div>
 
-                <DiscussionEmbed shortname={disqusConfig.shortname} config={disqusConfig.config} />
+                <div id="commento"></div>
 
                 <footer>
                     <Footer />
@@ -80,4 +70,3 @@ export async function getStaticPaths() {
       props: { data: blog },
     };
   }
-  
