@@ -12,7 +12,7 @@ export const Navbar = ({page = 0}) =>
                     </Link>
                     &nbsp;&nbsp;&nbsp;*/}
                     <Link href="/">
-                        <Image src="/logo-text.png" alt="logo" width={400} height={50} />
+                        <Image src="/logo-text.png" alt="logo" width={400} height={70} />
                     </Link>
             </div>
             <div>
