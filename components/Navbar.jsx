@@ -7,10 +7,10 @@ export const Navbar = ({page = 0}) =>
     return (
         <div className={stylesnav.navbar}>
             <div>
-                    <Link href="/">
+                    {/*<Link href="/">
                         <Image src="/logo-icon.png" alt="logo" width={40} height={40} />
                     </Link>
-                    &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;*/}
                     <Link href="/">
                         <Image src="/logo-text.png" alt="logo" width={400} height={50} />
                     </Link>
