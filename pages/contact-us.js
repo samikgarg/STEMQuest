@@ -34,6 +34,8 @@ export default function Form() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="shortcut icon" href="/logo-icon.png" />
             </Head>
+
+            <h1 className={styles.hiddenTitle}>STEMQuest Discovery: Contact Us</h1>
             
             <nav className={stylesnav.navbar}>
                 <Navbar page = {3}/>

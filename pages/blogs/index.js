@@ -14,6 +14,8 @@ export default function Blogs({ data }) {
         <link rel="shortcut icon" href="/logo-icon.png" />
       </Head>
 
+      <h1 className={styles.hiddenTitle}>STEMQuest Discovery: Blogs</h1>
+
       <nav>
           <Navbar page = {4}/>
       </nav>
@@ -23,7 +25,7 @@ export default function Blogs({ data }) {
       {data.map((blog, index) => (
         <Link href={{ pathname: '/blogs/[id]', query: { id: blog.id } }} style={{ textDecoration: 'none' }}>
             <div className={index % 2 === 0 ? styles.oddSection : styles.evenSection}>
-                <h1>{blog.title}</h1>
+                <h2 className={styles.h2Style}>{blog.title}</h2>
             </div>
         </Link>
     ))}

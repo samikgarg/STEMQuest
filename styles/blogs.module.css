@@ -30,3 +30,15 @@
 {
   font-size: 15px;
 }
+
+.hiddenTitle {
+  visibility: hidden;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+
+.h2Style {
+  font-size: xx-large;
+}

@@ -6,6 +6,19 @@
   border-radius: 10px;
 }
 
+.hiddenTitle {
+  visibility: hidden;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+
+.h2Style {
+  font-size: xx-large;
+}
+
+
 .app_icon_reverse
 {
   width: 100px;

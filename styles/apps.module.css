@@ -17,6 +17,18 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
+  .hiddenTitle {
+    visibility: hidden;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  
+  
+  .h2Style {
+    font-size: xx-large;
+  }
+
   .appReverse
   {
     width: 100%;

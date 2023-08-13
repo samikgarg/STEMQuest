@@ -31,6 +31,18 @@
     flex-shrink: 0;
 }
 
+.hiddenTitle {
+    visibility: hidden;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  
+  
+  .h2Style {
+    font-size: xx-large;
+  }
+
 .input,
 .textarea {
     flex-grow: 1;

@@ -27,6 +27,18 @@
     resize: vertical;
 }
 
+.hiddenTitle {
+    visibility: hidden;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  
+  
+  .h2Style {
+    font-size: xx-large;
+  }
+
 .button {
     padding: 10px 20px;
     font-size: 16px;

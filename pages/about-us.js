@@ -14,6 +14,8 @@ export default function Home() {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="shortcut icon" href="/logo-icon.png" />
         </Head>
+
+        <h1 className={styles.hiddenTitle}>STEMQuest Discovery: About Us</h1>
   
         <nav>
           <Navbar page = {2}/>
@@ -22,7 +24,7 @@ export default function Home() {
         <br /><br /><br /><br />
 
         <div className={styles.content}>
-          <h1 className={styles.heading}> Meet the Founder - Samik Garg</h1>
+          <h2 className={styles.heading}> Meet the Founder - Samik Garg</h2>
           <div className={styles.description}>
           <img src="me.png" className={styles.image}/>
           <q>

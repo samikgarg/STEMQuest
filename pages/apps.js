@@ -25,6 +25,8 @@ export default function App({ data })
                 <link rel="shortcut icon" href="/logo-icon.png" />
             </Head>
 
+            <h1 className={styles.hiddenTitle}>STEMQuest Discovery: Apps</h1>
+
             <nav>
                 <Navbar page = {1}/>
             </nav>
@@ -45,7 +47,7 @@ export default function App({ data })
                         </div>
                         <div className={styles.description}>
                             <img src={app.icon ? app.icon : ""} alt="icon" className={styles.app_icon}/>
-                            <h1>{app.name}</h1>
+                            <h2 className={styles.h2Style}>{app.name}</h2>
                             {app.description.map((para) => (
                                 <p>{para}</p>
                             ))}

@@ -13,6 +13,8 @@ export default function Blogs({ data }) {
                     <link rel="shortcut icon" href="/logo-icon.png" />
                 </Head>
 
+                <h1 className={styles.hiddenTitle}>STEMQuest Discovery Blog: {data.title}</h1>
+
                 <nav>
                     <Navbar page = {-1}/>
                 </nav>
@@ -21,7 +23,7 @@ export default function Blogs({ data }) {
 
                 <div className={styles.description}>
                     <div className={styles.heading}>
-                        <h1>{data.title}</h1>
+                        <h2 className={styles.h2Style}>{data.title}</h2>
                         <div dangerouslySetInnerHTML={{ __html: data.text }} />
                     </div>
                 </div>
