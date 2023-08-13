@@ -19,6 +19,8 @@ export default function Home() {
           <Navbar page = {2}/>
         </nav>
 
+        <br /><br /><br /><br />
+
         <div className={styles.content}>
           <h1 className={styles.heading}> Meet the Founder - Samik Garg</h1>
           <div className={styles.description}>

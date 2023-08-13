@@ -29,7 +29,7 @@ export default function App({ data })
                 <Navbar page = {1}/>
             </nav>
 
-            <br /><br /><br />
+            <br /><br /><br /><br /><br />
 
             {data.map((app, index)=>(
                 <div className={index % 2 === 0 ? styles.app : styles.appReverse}>

@@ -18,7 +18,7 @@ export default function Blogs({ data }) {
           <Navbar page = {4}/>
       </nav>
 
-      <br /><br /><br /><br />
+      <br /><br /><br /><br /><br /><br />
       
       {data.map((blog, index) => (
         <Link href={{ pathname: '/blogs/[id]', query: { id: blog.id } }} style={{ textDecoration: 'none' }}>
