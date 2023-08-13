@@ -59,7 +59,7 @@ export default function Maker() {
     return (
         <div className={styles.container}>
             <Head>
-              <title>Maker</title>
+              <title>Maker | STEMQuest Dicovery</title>
               <meta name="viewport" content="width=device-width, initial-scale=1" />
               <link rel="shortcut icon" href="/logo-icon.png" />
             </Head>

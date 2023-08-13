@@ -20,7 +20,7 @@ export default function App({ data })
     return (
         <div className={styles.container}>
             <Head>
-                <title>Apps</title>
+                <title>Apps | STEMQuest Dicovery</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="shortcut icon" href="/logo-icon.png" />
             </Head>

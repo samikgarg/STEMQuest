@@ -8,7 +8,7 @@ export default function Blogs({ data }) {
   return (
             <div className={styles.container}>
                 <Head>
-                    <title>Blogs</title>
+                    <title>{data.title} | STEMQuest Dicovery</title>
                     <meta name="viewport" content="width=device-width, initial-scale=1" />
                     <link rel="shortcut icon" href="/logo-icon.png" />
                 </Head>

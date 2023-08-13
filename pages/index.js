@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Home</title>
+        <title>Home | STEMQuest Dicovery</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="shortcut icon" href="/logo-icon.png" />
       </Head>
@@ -24,9 +24,10 @@ export default function Home() {
       <br /><br /><br /><br />
 
 
-      <div className={styles.evenSection}>
-      <img src="/logo-no-background.png" alt="logo" className={styles.topImage}/>
+      <div className={styles.evenSection} style={{ backgroundColor: '#040548' }}>
+        <img src="/logo-color2.png" alt="logo" style={{ width: '100vw', height: 'auto' }} className={styles.topImage}/>
       </div>
+
 
       <div className={styles.oddSection}>
         <h1>Our Mission</h1>

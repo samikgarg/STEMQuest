@@ -30,7 +30,7 @@ export default function Form() {
     return (
         <div className={styles.formContainer}>
             <Head>
-                <title>Contact Us</title>
+                <title>Contact Us | STEMQuest Dicovery</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="shortcut icon" href="/logo-icon.png" />
             </Head>
