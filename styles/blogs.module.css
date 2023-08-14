@@ -11,7 +11,7 @@
   text-align: center;
   padding: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 12px;
+  font-size:  large;
 }
 
 .oddSection 
@@ -28,7 +28,7 @@
 
 .oddSection:hover, .evenSection:hover
 {
-  font-size: 15px;
+  font-size:  x-large;
 }
 
 .hiddenTitle {

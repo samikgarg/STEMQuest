@@ -12,6 +12,7 @@ export default function Home() {
         <Head>
           <title>About Us | STEMQuest Dicovery</title>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta name="description" content="Learn more about STEMQuest Discovery's founder, Samik Garg, and his mission to democratize STEM learning." />
           <link rel="shortcut icon" href="/logo-icon.png" />
         </Head>
 

@@ -11,6 +11,8 @@ export default function Blogs({ data }) {
       <Head>
         <title>Blogs | STEMQuest Dicovery</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Explore the latest blogs and articles from STEMQuest Discovery on interdisciplinary topics related to Artificial Intelligence." />
+
         <link rel="shortcut icon" href="/logo-icon.png" />
       </Head>
 
@@ -25,7 +27,7 @@ export default function Blogs({ data }) {
       {data.map((blog, index) => (
         <Link href={{ pathname: '/blogs/[id]', query: { id: blog.id } }} style={{ textDecoration: 'none' }}>
             <div className={index % 2 === 0 ? styles.oddSection : styles.evenSection}>
-                <h2 className={styles.h2Style}>{blog.title}</h2>
+                <h2>{blog.title}</h2>
             </div>
         </Link>
     ))}

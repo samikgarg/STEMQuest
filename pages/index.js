@@ -14,6 +14,7 @@ export default function Home() {
       <Head>
         <title>Home | STEMQuest Dicovery</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="STEMQuest Discovery - Explore the exciting world of STEM with our apps, blogs, and learning resources. Ignite your curiosity and dive into the world of Science, Technology, Engineering, and Mathematics." />
         <link rel="shortcut icon" href="/logo-icon.png" />
       </Head>
 

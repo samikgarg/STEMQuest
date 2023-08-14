@@ -22,6 +22,7 @@ export default function App({ data })
             <Head>
                 <title>Apps | STEMQuest Dicovery</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta name="description" content="Explore STEMQuest Discovery apps. Engaging, interactive, and educational apps for STEM learning." />
                 <link rel="shortcut icon" href="/logo-icon.png" />
             </Head>
 

@@ -32,6 +32,7 @@ export default function Form() {
             <Head>
                 <title>Contact Us | STEMQuest Dicovery</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta name="description" content="Contact STEMQuest Discovery for inquiries, suggestions, or feedback." />
                 <link rel="shortcut icon" href="/logo-icon.png" />
             </Head>
 

@@ -10,6 +10,7 @@ export default function Blogs({ data }) {
                 <Head>
                     <title>{data.title} | STEMQuest Dicovery</title>
                     <meta name="viewport" content="width=device-width, initial-scale=1" />
+                    <meta name="description" content={data.description || "Default description for SEO"} />
                     <link rel="shortcut icon" href="/logo-icon.png" />
                 </Head>
 
