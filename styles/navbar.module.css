@@ -16,6 +16,8 @@
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
+
 .navlink {
     color: white;
     margin-left: 1rem;
@@ -45,4 +47,55 @@
     transition: all 0.3s ease;
     padding: 0.5rem 1rem; /* Add padding to create a box around the text */
     display: inline-block; /* This is needed to add padding */
+}
+
+/* Existing styles remain the same */
+
+/* Hamburger menu */
+.hamburger {
+    display: none; /* Initially hidden */
+    flex-direction: column;
+    cursor: pointer;
+    width: 25px;
+    justify-content: space-between;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+}
+
+/* Mobile Navbar */
+.mobile-nav {
+    display: none;
+    position: fixed;
+    top: 60px; /* Adjust according to your navbar height */
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.9); 
+    z-index: 999; 
+    flex-direction: column;
+}
+
+.mobile-nav a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 768px) {
+    .navbar div:last-child {
+        display: none; /* Hide regular nav links */
+    }
+
+    .hamburger {
+        display: flex; /* Show hamburger menu */
+    }
+
+    .mobile-nav {
+        display: flex; /* Show mobile nav when toggled */
+    }
 }
