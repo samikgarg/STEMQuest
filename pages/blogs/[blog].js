@@ -8,7 +8,7 @@ export default function Blogs({ data }) {
   return (
             <div className={styles.container}>
                 <Head>
-                    <title>{data.title} | STEMQuest Dicovery</title>
+                    <title>{data.title} | STEMQuest Dicovery Blogs</title>
                     <meta name="viewport" content="width=device-width, initial-scale=1" />
                     <meta name="description" content={data.description || "Default description for SEO"} />
                     <link rel="shortcut icon" href="/logo-icon.png" />
@@ -19,8 +19,6 @@ export default function Blogs({ data }) {
                 <nav>
                     <Navbar page = {-1}/>
                 </nav>
-
-                <br /><br /><br /><br />
 
                 <div className={styles.description}>
                     <div className={styles.heading}>

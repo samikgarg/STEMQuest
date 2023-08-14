@@ -31,34 +31,34 @@ export default function App({ data })
             <nav>
                 <Navbar page = {1}/>
             </nav>
-
-            <br /><br /><br /><br /><br />
-
-            {data.map((app, index)=>(
-                <div className={index % 2 === 0 ? styles.app : styles.appReverse}>
-                    <div className={index % 2 === 0 ? styles.row : styles.rowReverse}>
-                        <div className={styles.carousel}>
-                        <Slider {...settings}>
-                            {app.images.map(image => (
-                            <div>
-                                <img src={image} alt={app.name + " screenshot"} className={styles.carouselImage} />
+            
+            <div className={styles.contentDiv}>
+                {data.map((app, index)=>(
+                    <div className={index % 2 === 0 ? styles.app : styles.appReverse}>
+                        <div className={index % 2 === 0 ? styles.row : styles.rowReverse}>
+                            <div className={styles.carousel}>
+                            <Slider {...settings}>
+                                {app.images.map(image => (
+                                <div>
+                                    <img src={image} alt={app.name + " screenshot"} className={styles.carouselImage} />
+                                </div>
+                                ))}
+                            </Slider>
                             </div>
-                            ))}
-                        </Slider>
-                        </div>
-                        <div className={styles.description}>
-                            <img src={app.icon ? app.icon : ""} alt={app.name + " icon"} className={styles.app_icon}/>
-                            <h2 className={styles.h2Style}>{app.name}</h2>
-                            {app.description.map((para) => (
-                                <p>{para}</p>
-                            ))}
-                            <div style={{textAlign: 'center'}}>
-                                <button className={index % 2 === 0 ? styles.buttonStyle : styles.buttonStyleReverse} onClick={() => window.open(app.link, "_blank")} type="button">View on Google Play Store</button>
+                            <div className={styles.description}>
+                                <img src={app.icon ? app.icon : ""} alt={app.name + " icon"} className={styles.app_icon}/>
+                                <h2 className={styles.h2Style}>{app.name}</h2>
+                                {app.description.map((para) => (
+                                    <p>{para}</p>
+                                ))}
+                                <div style={{textAlign: 'center'}}>
+                                    <button className={index % 2 === 0 ? styles.buttonStyle : styles.buttonStyleReverse} onClick={() => window.open(app.link, "_blank")} type="button">View on Google Play Store</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            ))}
+                ))}
+            </div>
 
             <footer>
                 <Footer />

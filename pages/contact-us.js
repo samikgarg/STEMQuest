@@ -43,7 +43,6 @@ export default function Form() {
             </nav>
             
             <form className={styles.form} id="form" onSubmit={handleSubmit}>
-                <br /><br />
                 <div className={styles.inputGroup}>
                     <label htmlFor="name" className={styles.label}>What&nbsp;is&nbsp;your&nbsp;Name?</label>
                     <input type="text" id="name" name="name" className={styles.input} />

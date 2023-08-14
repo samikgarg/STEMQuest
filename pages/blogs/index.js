@@ -21,16 +21,16 @@ export default function Blogs({ data }) {
       <nav>
           <Navbar page = {4}/>
       </nav>
-
-      <br /><br /><br /><br /><br /><br />
       
-      {data.map((blog, index) => (
-        <Link href={{ pathname: '/blogs/[id]', query: { id: blog.id } }} style={{ textDecoration: 'none' }}>
-            <div className={index % 2 === 0 ? styles.oddSection : styles.evenSection}>
-                <h2>{blog.title}</h2>
-            </div>
-        </Link>
-    ))}
+      <div className={styles.contentDiv}>
+        {data.map((blog, index) => (
+          <Link href={{ pathname: '/blogs/[id]', query: { id: blog.id } }} style={{ textDecoration: 'none' }}>
+              <div className={index % 2 === 0 ? styles.oddSection : styles.evenSection}>
+                  <h2>{blog.title}</h2>
+              </div>
+          </Link>
+        ))}
+      </div>
 
       <footer>
         <Footer />

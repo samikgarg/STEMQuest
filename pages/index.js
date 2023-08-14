@@ -24,8 +24,6 @@ export default function Home() {
           <Navbar page = {0}/>
       </nav>
 
-      <br /><br /><br /><br />
-
 
       <div className={styles.evenSection} style={{ backgroundColor: '#040548' }}>
         <img src="/logo-color2.png" alt="STEMQuest Discovery logo and banner" style={{ width: '100vw', height: 'auto' }} className={styles.topImage}/>

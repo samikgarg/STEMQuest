@@ -29,6 +29,11 @@
     font-size: xx-large;
   }
 
+  .contentDiv
+  {
+    padding-top: 70px;
+  }
+
   .appReverse
   {
     width: 100%;
