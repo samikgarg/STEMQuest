@@ -14,6 +14,9 @@
     width: 100%;
     z-index: 1000;
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between; /* this ensures items are spaced on either end */
+    align-items: center;
 }
 
 
@@ -90,5 +93,10 @@
         width: 200px; /* or whatever size you desire */
         height: auto;
     }
+}
+
+.menuContainer {
+    display: flex;
+    align-items: center;
 }
 
