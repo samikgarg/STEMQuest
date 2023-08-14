@@ -49,53 +49,41 @@
     display: inline-block; /* This is needed to add padding */
 }
 
-/* Existing styles remain the same */
+.links {
+    display: flex;
+}
 
-/* Hamburger menu */
 .hamburger {
-    display: none; /* Initially hidden */
+    display: none; /* hide by default */
     flex-direction: column;
     cursor: pointer;
-    width: 25px;
-    justify-content: space-between;
+    gap: 5px;
 }
 
-.hamburger div {
+.hamburger > div {
     width: 25px;
     height: 3px;
-    background-color: white;
+    background: white;
 }
 
-/* Mobile Navbar */
-.mobile-nav {
-    display: none;
-    position: fixed;
-    top: 60px; /* Adjust according to your navbar height */
+.mobileNav {
+    position: absolute;
+    top: 60px; /* adjust this based on your navbar height */
     left: 0;
-    right: 0;
-    background-color: rgba(0,0,0,0.9); 
-    z-index: 999; 
-    flex-direction: column;
-}
-
-.mobile-nav a {
-    padding: 10px;
-    color: white;
-    text-decoration: none;
+    width: 100%;
+    background-color: black;
     text-align: center;
+    padding: 10px 0;
 }
 
-/* Media Query for smaller screens */
-@media only screen and (max-width: 768px) {
-    .navbar div:last-child {
-        display: none; /* Hide regular nav links */
+/* Media Query for Smaller Screens */
+@media screen and (max-width: 900px) {
+    .links {
+        display: none; /* hide regular links */
     }
 
     .hamburger {
-        display: flex; /* Show hamburger menu */
-    }
-
-    .mobile-nav {
-        display: flex; /* Show mobile nav when toggled */
+        display: flex; /* show hamburger menu */
     }
 }
+
