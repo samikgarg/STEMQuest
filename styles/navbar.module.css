@@ -85,5 +85,10 @@
     .hamburger {
         display: flex; /* show hamburger menu */
     }
+
+    .imgLogo {
+        width: 200px; /* or whatever size you desire */
+        height: auto;
+    }
 }
 
