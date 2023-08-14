@@ -41,13 +41,13 @@ export default function App({ data })
                         <Slider {...settings}>
                             {app.images.map(image => (
                             <div>
-                                <img src={image} alt="App screenshot" className={styles.carouselImage} />
+                                <img src={image} alt={app.name + " screenshot"} className={styles.carouselImage} />
                             </div>
                             ))}
                         </Slider>
                         </div>
                         <div className={styles.description}>
-                            <img src={app.icon ? app.icon : ""} alt="icon" className={styles.app_icon}/>
+                            <img src={app.icon ? app.icon : ""} alt={app.name + " icon"} className={styles.app_icon}/>
                             <h2 className={styles.h2Style}>{app.name}</h2>
                             {app.description.map((para) => (
                                 <p>{para}</p>

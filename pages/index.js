@@ -28,7 +28,7 @@ export default function Home() {
 
 
       <div className={styles.evenSection} style={{ backgroundColor: '#040548' }}>
-        <img src="/logo-color2.png" alt="logo" style={{ width: '100vw', height: 'auto' }} className={styles.topImage}/>
+        <img src="/logo-color2.png" alt="STEMQuest Discovery logo and banner" style={{ width: '100vw', height: 'auto' }} className={styles.topImage}/>
       </div>
 
 
@@ -42,10 +42,10 @@ export default function Home() {
       <div className={styles.evenSection}>
         <h2 className={styles.h2Style}>Our Apps</h2>
         <div className={styles.content}>
-          <img src="/apps/beginning/img3.png" alt="icon" className={styles.app_image_reverse}/>
-          <img src="/apps/beginning/icon.png" alt="icon" className={styles.app_icon_reverse}/>
-          <img src="/apps/shapex/img2.png" alt="icon" className={styles.app_image}/>
-          <img src="/apps/shapex/icon.png" alt="icon" className={styles.app_icon}/>
+          <img src="/apps/beginning/img3.png" alt="Science and Technology: The Beginning screenshot" className={styles.app_image_reverse}/>
+          <img src="/apps/beginning/icon.png" alt="Science and Technology: The Beginning icon" className={styles.app_icon_reverse}/>
+          <img src="/apps/shapex/img2.png" alt="ShapeX Calculator screenshot" className={styles.app_image}/>
+          <img src="/apps/shapex/icon.png" alt="ShapeX Calculator icon" className={styles.app_icon}/>
           <p>
           Explore the exciting world of STEM with our diverse range of Android apps, designed exclusively to inspire curiosity and foster learning in Science, Technology, Engineering, and Mathematics. These apps, free for all, are our initiative to democratize STEM education, ensuring every aspiring mind, privileged or underprivileged, has access to quality learning resources. Dive in and discover the joy of STEM learning today! 
           </p>
