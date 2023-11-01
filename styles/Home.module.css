@@ -152,6 +152,16 @@
   margin: 0px 0px;
 }
 
+.topSection {
+  width: 90%;
+  background-attachment: fixed;
+  top: 60px; 
+  z-index: 50;
+  margin: 0px 0px;
+  background-color: #040548;
+  color: white;
+}
+
 
 .oddSection, .evenSection
 {
