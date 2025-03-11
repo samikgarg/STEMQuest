@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="banner.png" alt="GitHub Banner" width="100%" />
+</p>
+
 # 🌍 STEMQuest Discovery
 
 🔗 **Visit the website:** [STEMQuest Discovery](https://www.stemquestdiscovery.com/)
