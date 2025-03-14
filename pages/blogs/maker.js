@@ -13,7 +13,7 @@ export default function Maker() {
 
     const handlePasswordSubmit = (e) => {
         e.preventDefault();
-        if(password === "Samik2005") {
+        if(password === "#Removed for Privacy#") {
             setAuth(true);
         } else {
             alert("Incorrect password. Please try again.");
