@@ -1,12 +1,10 @@
-<a href="https://www.stemquestdiscovery.com/">
+<a href="/">
   <p align="center">
     <img src="banner.png" alt="GitHub Banner" width="100%" />
   </p>
 </a>
 
 # 🌍 STEMQuest Discovery
-
-🔗 **Visit the website:** [STEMQuest Discovery](https://www.stemquestdiscovery.com/)
 
 ## 📌 Description
 **STEMQuest Discovery** is a **nonprofit organization** dedicated to **improving STEM awareness among underprivileged children worldwide**. Through **free educational applications** and **beginner-friendly blogs**, we aim to **democratize STEM learning** and inspire curiosity about **Science, Technology, Engineering, and Mathematics (STEM)**.
